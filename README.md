@@ -12,10 +12,13 @@ User Registration --> http://localhost:8080/userservice/register
 
 User Authentication -->http://127.0.0.1:8080/userservice/login
 
+Request
 {
     "userName": "UserName",
     "password": "PASsword123"
 }
+
+Response : Will provide the gewnerated token in the response header.
 
 Please write a Spring REST controller that handles user registration. The REST resource should be accessible via "/userservice/register" and
 accepts following JSON data:
